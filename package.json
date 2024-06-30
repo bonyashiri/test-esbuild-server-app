@@ -1,0 +1,17 @@
+{
+  "name": "test-esbuild-server-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsx build.ts",
+    "start": "tsx esbuild.config.ts --serve",
+    "dev": "tsx build.ts --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "esbuild-server": "^0.3.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "tsx": "^4.16.0"
+  }
+}
